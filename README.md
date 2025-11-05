@@ -1,87 +1,217 @@
-![LandingMineLogo](https://github.com/FernadoCodeDev/LandingMine-remastered/blob/main/public/Image/LandingMine/LandingMine.webp)
+![CódiGolLogo](https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/CodiGolLogo.webp)
 
-#   **LandingMine**
+#  ⚽ **CódiGol**
 
-Catálogo de 13 landing pages con temáticas variadas (restaurantes, e-commerce, inmobiliarias, y más), diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.
+**CódiGol** es un pequeño videojuego web diseñado para ayudarte a aprender y practicar Tailwind CSS de forma divertida y diferente. Inspirado en la emoción del fútbol, este juego te reta a anotar goles completando desafíos de diseño utilizando Tailwind.
 
-Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño profesional aplicado a distintos sectores.
+Esta idea surgió como un concepto que había descartado tiempo atrás, pero gracias a la experiencia adquirida y la motivación de la [Hackathon de MiduDev 2025](https://github.com/midudev/hackaton-clerk-2025?tab=readme-ov-file#%EF%B8%8F-c%C3%B3mo-participar-en-la-hackat%C3%B3n), decidí retomarla y convertirla en una demo funcional. El desarrollo **se realizó en menos de 10 días, desde el 8 hasta el 21 de mayo de 2025**, como parte del reto.
+
+Inicialmente, el proyecto estaba pensado para enseñar JavaScript, pero al notar que ya existen muchas plataformas enfocadas en eso, decidí optar por **Tailwind CSS**, ya que más allá de su documentación oficial, no encontré recursos prácticos e interactivos para aprenderlo. Por eso, este proyecto busca ser una forma diferente, entretenida y dinámica de dominar **Tailwind CSS**, combinando aprendizaje y mecánicas de juego.
+
+Como parte del desarrollo para la [Hackathon de MiduDev 2025](https://github.com/midudev/hackaton-clerk-2025?tab=readme-ov-file#%EF%B8%8F-c%C3%B3mo-participar-en-la-hackat%C3%B3n), se integró [Clerk SDK](https://clerk.com/docs) para la autenticación de usuarios donde **es necesario registrarse o iniciar sesión para poder jugar**.
+
+## 🏅 Mención Especial en la Final de la Hackathon de Midudev 
+
+Durante la transmisión final de la Hackathon organizada por [Midudev](https://www.twitch.tv/videos/2465451345) y [Clerk SDK](https://clerk.com/docs), ¡**CódiGol** fue destacado como uno de los proyectos más originales! ⚽🔥
+
+> *"Luego también hay gente que se ha atrevido a hacer como una plataforma para aprender Tailwind. Se llama CódiGol. Tienes el entrenador, el coach aquí. Y entonces te va explicando la técnica del responsive y tal... Golazo. Has dominado la técnica..."*  
+> — *Midudev en el stream de la final de la Hackathon 2025*
+
+😅 Sí, el entrenador hablaba un poquito de más en la introducción (¡gracias por ese feedback, Midu!), pero ya lo solucioné: **ahora los diálogos son más cortos y directos al grano**, para que la experiencia sea más ágil y divertida.
+
+📺 **Puedes ver ese momento aquí (¡es un tremendo golazo!):**
+
+[![Ver mención en el stream](https://img.youtube.com/vi/0Z0Vy0VWQeY/hqdefault.jpg)](https://www.youtube.com/watch?v=0Z0Vy0VWQeY)
+
+
+## 🌐 Enlace a la demo
+
+[Juega CódiGol ahora](https://codigol-demo.netlify.app/)  
+
+## 🧠 ¿Qué aprenderás?
+
+- Fundamentos y clases de utilidad de **Tailwind CSS**
+- Estilos responsive
+- Buenas prácticas al trabajar con **Tailwind CSS**
 
 ## 🛠 Tecnologías utilizadas
 
-<div align="left">
+[![My Skills](https://skillicons.dev/icons?i=js,react,tailwind)](https://skillicons.dev)
 
-![javascript](https://img.shields.io/static/v1?message=javascript&logo=javascript&label=&color=F7DF1E&logoColor=black&labelColor=&style=for-the-badge)
-![react](https://img.shields.io/static/v1?message=react&logo=react&label=&color=61DAFB&logoColor=black&labelColor=&style=for-the-badge)
-![astro](https://img.shields.io/static/v1?message=astro&logo=astro&label=&color=BC52EE&logoColor=white&labelColor=&style=for-the-badge)
-![tailwind](https://img.shields.io/static/v1?message=tailwindCSS&logo=tailwindcss&label=&color=06B6D4&logoColor=white&labelColor=&style=for-the-badge)
-![vite](https://img.shields.io/static/v1?message=vite&logo=vite&label=&color=646CFF&logoColor=white&labelColor=&style=for-the-badge)
+- [Clerk SDK](https://clerk.com/docs) ( para el sistema de login )
 
-</div>
+ ## 🔐 Autenticación con Clerk
 
-- ✅ 100% responsive y adaptadas a distintos dispositivos.
-- 🎯 Diseños modernos y optimizados con Tailwind CSS.
-- ⚡ Desarrolladas con Astro, React lo que permite componentes reutilizables y mejor mantenimiento del código.
-  
-## 🎨 Diseño y Temáticas de las Landing Pages  
+Para poder jugar, los usuarios deben crear una cuenta o iniciar sesión.
+[Clerk SDK](https://clerk.com/docs) se ha utilizado para manejar la autenticación, protegiendo las rutas del juego y personalizando la experiencia del jugador con sesiones activas.
 
-Cada landing page en **LandingMine** está diseñada con una temática única y completamente **responsive**, adaptándose a distintos dispositivos y tamaños de pantalla.  
-El objetivo principal es explorar y mejorar en **Front-End**, creando interfaces variadas que se ajusten a diferentes industrias y estilos visuales.  
+## Integración con Clerk
+**CódiGol** utiliza [Clerk SDK](https://clerk.com/docs) como sistema de autenticación para gestionar el acceso de los usuarios. La integración de [Clerk SDK](https://clerk.com/docs) permite proteger rutas y garantizar que solo los usuarios registrados puedan acceder a la experiencia completa del juego.
 
-Cada landing tiene su propio diseño y características especiales:  
+Cuando un usuario intenta iniciar el juego sin estar autenticado, se activa automáticamente el modal de inicio de sesión o registro proporcionado por [Clerk SDK](https://clerk.com/docs).
 
-- 🎭 **Diseño personalizado:** Cada página sigue un estilo acorde a su temática.  
-- 🌙 **Modos de color:** Algunas incluyen **Dark Mode** para mejorar la experiencia visual.  
-- 🎨 **Interactividad:** Se han agregado **Interactividad a cada landing ** para hacerlas más dinámicas.  
+A continuación se muestran capturas del flujo de autenticación:
 
-Cada una de estas páginas permite experimentar con distintos enfoques de diseño y **crear interfaces Front-End adaptadas a diversas necesidades**.  
+<p align="center"> <img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN1.webp"alt="Pantalla de inicio protegida por Clerk" /> <br/> <em>Pantalla inicial con botón de acceso</em> </p> <p align="center"> <img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN2.webp" alt="Modal de login de Clerk" /> <br/> <em></em>Modal con una pequeña Introducción sobre CódiGol </p> <p align="center"> <img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN3.webp" alt="Usuario autenticado" /> <br/> <em>Modal de login de Clerk SDK Integrado</em> </p> <p align="center"> <img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN4.webp"  alt="Protección de rutas con Clerk" /> <br/> <em>Verificación de Rutas protegidas que verifican si el usuario ya ha iniciado sesión de otro modo lo redirige a la página principal</em>   </p>
 
-## 🗂 Organización del Proyecto  
+# Detalles del Juego 
 
-Para mantener un código limpio y estructurado, cada landing page en **LandingMine** sigue una organización bien definida dentro de la carpeta `src`.  
+## 🎞  Historia y Temática de CódiGol ⚽
 
-## 📁 Estructura de archivos  
+En **CódiGol**, el jugador se une a los **Wind Jaguars**, un equipo decidido a conquistar la **Full Stack League**. Desde el primer momento, el entrenador te da la bienvenida al equipo y te explica cómo funcionará tu entrenamiento, en cada partido aprenderás una **nueva técnica de Tailwind CSS**.
 
-Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing está organizada en su propia carpeta. Además, hay carpetas de **componentes globales** y **hooks**:  
+El camino hacia la victoria está dividido en 10 partidos, y cada uno representa una lección clave sobre Tailwind. En el primer encuentro, por ejemplo, el jugador aprende sobre **diseño responsivo y clases de texto**. 
 
-- **LandingPage/** → Contiene todas las landing pages, cada una en su propia carpeta.  
-- **GlobalComponents/** → Contiene componentes reutilizables como `DarkMode` y `MenuMobile`.  
+`text-xs, text-lg, md:text-xl, etc`
 
-Cada landing tiene su estructura específica para facilitar su mantenimiento y escalabilidad.  
+<img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN5.webp" alt="imgReadmeN5" /> 
 
-## 🏗 Estructura de una Landing Page  
+## 🧠 Entrenamiento antes del partido
 
-Todas las landing pages del proyecto adoptan una estructura modular y organizada, lo que facilita su mantenimiento y escalabilidad. Cada landing sigue esta estructura de carpetas:
+Antes de cada partido, el jugador debe completar un entrenamiento. Aquí podrá **experimentar, cometer errores y aprender sin presión**. El entrenador explicará cómo funciona cada clase de Tailwind, y el jugador deberá resolver ejercicios prácticos para avanzar.
 
-   ```
-/LandingPage
-│── /assets           ⬅ Imágenes, íconos, fuentes, etc.
-│── /components
-│   │── /ui           ⬅ Componentes reutilizables (botones, tarjetas, etc.)
-│   /layout       ⬅ Estructura base: Header, Main y Footer
-│   │   ├── Header.astro
-│   │   ├── Main.astro
-│   │   ├── Footer.astro
-│── /pages
-│   └── Home.astro      ⬅ Página principal que renderiza toda la landing
-└── /utils      
+El entrenamiento solo termina cuando todas las respuestas son correctas, asegurando que el jugador domine bien la lección antes de entrar al campo.
+
+<img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN6.webp" alt="imgReadmeN6" /> 
+
+## ⚔️ El Partido
+
+Una vez completado el entrenamiento, es momento del partido. En la escena de VS, se presenta el contexto del enfrentamiento. Por ejemplo, en el primer partido, los **Wind Jaguars** van perdiendo 2-0 contra los **Gem Rubies**.
+
+A medida que se avanza en la liga, el **margen de error se reduce** y los desafíos se vuelven más exigentes.
+
+<img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN7.webp" alt="imgReadmeN7" /> 
+
+## 🧭 Estrategia y Recordatorio
+
+Antes de entrar al segundo tiempo, el entrenador te recuerda lo aprendido y te da contexto de lo que está en juego. Además, menciona que tienes **5 jugadas o estrategias** para crear oportunidades de anotar — esto representa tus **5 intentos** para resolver correctamente los ejercicios en el partido.
+
+<img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN8.webp" alt="imgReadmeN8" /> 
+
+## 🏟️ El Partido Real
+
+Durante el partido, el jugador **aplica lo aprendido** en el entrenamiento. Cada ejercicio es una jugada, y solo hay **una oportunidad** para acertar. Si fallas, se pasa directamente al siguiente ejercicio.
+
+Al final del partido, se muestra el resultado, que determinará la posición del equipo en la tabla:
+
+- ✅ Victoria = 3 puntos
+- 🤝 Empate = 1 punto
+- ❌ Derrota = 0 puntos
+
+El objetivo final es **sumar la mayor cantidad de puntos** a lo largo de la liga y convertirte en el campeón de la Full Stack League, dominando las técnicas más importantes de **Tailwind CSS** en el camino.
+
+<img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN9.webp" alt="imgReadmeN9" /> 
+
+# 📱 Detalle sobre la Responsividad y Modal de Tamaño
+
+**CódiGol** ha sido diseñado para ofrecer la mejor experiencia en pantallas grandes, ya que cuenta con un editor de código integrado que requiere espacio suficiente para su uso cómodo y funcional. Por esta razón, cuando el juego se ejecuta en dispositivos con un ancho de pantalla menor a **1280px**, se muestra un modal informativo que indica que el tamaño de la pantalla no es el adecuado.
+
+Este modal tiene como objetivo evitar problemas de visualización y usabilidad, especialmente en **celulares o tablets**, donde el entorno de desarrollo no sería óptimo. Para disfrutar de **CódiGol** correctamente, se recomienda utilizarlo en una computadora de escritorio o laptop con una resolución igual o superior a 1280px de ancho.
+
+<img src="https://github.com/FernadoCodeDev/CodiGol-Demo/blob/main/assets/img/imgReadmeN10.webp" alt="imgReadmeN10" /> 
+
+## 🎯 Objetivo del juego
+
+- Ganar la liga enfrentando a 10 equipos diferentes
+- Resolver ejercicios reales de Tailwind para avanzar
+- Mejorar tus habilidades de **TailwindCSS** en un contexto práctico y divertido
+
+## 📋 Notas técnicas
+
+- Cada pantalla está pensada como una fase: introducción, entrenamiento, partido y resultado.
+- Los ejercicios se evalúan en tiempo real y afectan el marcador.
+- Las rutas están protegidas con [Clerk SDK](https://clerk.com/docs) por que si se intenta acceder lo redireccionará a la página principal.
+
+## 🚀 Instalación y uso local
+
+Si deseas correr **CódiGol** en tu máquina local, sigue estos pasos:
+
+1. Clona el repositorio
+2. Instala las dependencias
+     ```
+    npm install
+3. Crea el archivo `.env` y integra la variable de entorno para integrar [Clerk SDK](https://clerk.com/docs)
+4. Inicia el servidor de desarrollo
+    ```
+     npm start
+## ⚡ ¿Por qué usar npm start?
+**CódiGol** está construido con React, por lo que requiere un entorno de desarrollo para compilar y visualizar correctamente la aplicación.
+El comando `npm start` inicia el servidor de desarrollo de React, permitiendo ver los cambios en tiempo real.
+
+## 🚧  Estructura del proyecto 🧱
+La arquitectura de **CódiGol** está pensada para mantener el código limpio, modular y fácil de escalar. Aquí se explica cada carpeta y archivo clave del proyecto:
+
+<details>
+<summary>📁 Estructura completa</summary>
+    
+  ```bash
+src/
+├── assets/
+│   ├── images/         # Imágenes utilizadas en el juego (fondos, jugadores, logos, etc.)
+│   └── svg/            # Archivos SVG como íconos o elementos vectoriales
+│
+├── context/
+│   └── GameContext.jsx # Maneja el estado global del juego (progreso, marcador, etc.)
+│
+├── Data/
+│   ├── Dialogue.js           # Contiene los diálogos del entrenador y escenas del juego
+│   ├── exercises.js          # Ejercicios interactivos para practicar Tailwind
+│   ├── Game.js               # Datos y configuración del partido en curso
+│   ├── MatchData.js          # Información de los partidos (equipos, rondas, etc.)
+│   ├── MatchPresentation.js  # Datos para la pantalla de presentación del partido
+│   ├── SubBench.js           # Datos de los jugadores en la banca
+│   └── Training.js           # Datos para la sección de entrenamiento
+│
+├── Hook/
+│   └── ProtectedRoute.jsx    # Hook que protege rutas para usuarios autenticados con Clerk
+│
+├── Page/                     # Páginas que muestra contenido de cada escena de Screens
+│
+├── screens/
+│   ├── LessonIntro.jsx       # Introducción teórica de cada lección
+│   ├── Training.jsx          # Entrenamiento previo al partido (resolución de ejercicios)
+│   ├── MatchPresentation.jsx # Pantalla de presentación tipo “versus” antes del partido
+│   ├── SubBench.jsx          # Pantalla de selección de jugador desde la banca
+│   ├── Game.jsx              # Escenario principal donde se juega y se resuelven ejercicios
+│   ├── LeagueTable.jsx       # Tabla de posiciones o progreso en la liga
+│   ├── FinalScore.jsx        # Muestra el resultado final del partido
+│   └── FinalScene.jsx        # Escena final del juego 
+│
+├── styles/
+│   ├── index.css             # Archivo base de estilos generales
+│   └── tailwind.css          # Importaciones de Tailwind y configuración personalizada
+│
+├── ui/                       # Componentes reutilizables en diferentes pantallas
+│   ├── CodeEditor.jsx        # Editor donde el jugador escribe código
+│   ├── DialogueBox.jsx       # Cuadro de diálogo para mensajes del entrenador
+│   ├── Editor.jsx            # Componente visual del editor
+│   ├── EventTime.jsx         # Representa eventos en tiempo real durante el juego
+│   ├── Modal.jsx             # Modal genérico
+│   ├── ModalNavigation.jsx   # Modal para navegación entre fases
+│   ├── ModalSize.jsx         # Modal para elegir tamaño de componente visual
+│   ├── Navigation.jsx        # Barra de navegación del juego
+│   ├── Preview.jsx           # Vista previa del resultado del código
+│   ├── ScoreBoard.jsx        # Marcador en tiempo real del partido
+│   ├── Timer.jsx             # Cronómetro del juego
+│   └── TrainingPoint.jsx     # Punto de progreso en el entrenamiento
+│
+├── utils/                    # Funciones de utilidad para lógica del juego
+│   ├── EvaluateAnswer.js         # Evalúa si el código del jugador es correcto
+│   ├── navigateToNextPhase.js   # Lógica para pasar a la siguiente fase del juego
+│   ├── routeFlow.js             # Flujo de rutas del juego según el estado
+│   ├── routeGuard.js            # Protege rutas si no hay sesión iniciada
+│   └── useTime.js               # Hook personalizado para el manejo del tiempo
+│
+├── App.jsx                 # Define el flujo de rutas principales y estructura del juego
+└── index.js                # Punto de entrada de la aplicación
+
 ```
+</details>
 
-### 🌍 Componentes Globales
-Dentro de la carpeta LandingPages, hay una subcarpeta llamada GlobalComponents. Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
+## ❤️ Agradecimientos
 
-Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
+- A [MiduDev y Clerk SDK](https://github.com/midudev/hackaton-clerk-2025?tab=readme-ov-file#%EF%B8%8F-c%C3%B3mo-participar-en-la-hackat%C3%B3n) por organizar la hackathon.
+- A ti, por jugar y aprender con **CódiGol** y leer este readMe.
 
-### 🔆 DarkMode.jsx
-Este archivo contiene la lógica que permite cambiar entre el modo claro y oscuro en las landing pages. Con este componente, los usuarios pueden alternar entre ambos modos sin afectar la estructura del sitio.
-
-### 📱 MobileMenu.jsx
-Este componente maneja el menú móvil, que aparece en pantallas menores a md (768px en Tailwind CSS). Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
-
-Para solucionar esto, **MobileMenu.jsx** permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
-
-Estas propiedades permiten que el menú:
-- **✅ Tenga colores adaptados al diseño de cada landing.**
-- **✅ Mantenga una buena visibilidad sin importar el fondo de la página.**
-- **✅ Se integre de forma fluida con la experiencia del usuario.**
-
-Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
+## 📜 Licencia
+Este proyecto fue desarrollado como proyecto para la [Hackathon de MiduDev 2025](https://github.com/midudev/hackaton-clerk-2025?tab=readme-ov-file#%EF%B8%8F-c%C3%B3mo-participar-en-la-hackat%C3%B3n) y está disponible con fines educativos y demostrativos.
