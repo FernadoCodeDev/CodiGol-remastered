@@ -47,7 +47,6 @@ Durante la transmisión final de la Hackathon organizada por [Midudev](https://w
 
 </div>
 
-
  ## 🔐 Autenticación con Clerk
 
 Para poder jugar, los usuarios deben crear una cuenta o iniciar sesión.
