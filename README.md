@@ -24,9 +24,9 @@ Durante la transmisión final de la Hackathon organizada por [Midudev](https://w
 [![Ver mención en el stream](https://img.youtube.com/vi/0Z0Vy0VWQeY/hqdefault.jpg)](https://www.youtube.com/watch?v=0Z0Vy0VWQeY)
 
 
-## 🌐 Enlace a la demo
+## 🌐 Enlace a la demo 
 
-[Juega CódiGol ahora](https://codigol-demo.netlify.app/)  
+[![codigol](https://img.shields.io/static/v1?message=Juega-CódiGol-ahora&logo=devbox&label=&color=06B6D4&logoColor=white&labelColor=&style=for-the-badge)](https://codigol-demo.netlify.app/)
 
 ## 🧠 ¿Qué aprenderás?
 
@@ -36,9 +36,16 @@ Durante la transmisión final de la Hackathon organizada por [Midudev](https://w
 
 ## 🛠 Tecnologías utilizadas
 
-[![My Skills](https://skillicons.dev/icons?i=js,react,tailwind)](https://skillicons.dev)
+<div align="left">
 
-- [Clerk SDK](https://clerk.com/docs) ( para el sistema de login )
+![astro](https://img.shields.io/static/v1?message=astro&logo=astro&label=&color=BC52EE&logoColor=white&labelColor=&style=for-the-badge)
+![javascript](https://img.shields.io/static/v1?message=javascript&logo=javascript&label=&color=F7DF1E&logoColor=black&labelColor=&style=for-the-badge)
+![react](https://img.shields.io/static/v1?message=react&logo=react&label=&color=61DAFB&logoColor=black&labelColor=&style=for-the-badge)
+![tailwind](https://img.shields.io/static/v1?message=tailwindCSS&logo=tailwindcss&label=&color=06B6D4&logoColor=white&labelColor=&style=for-the-badge)
+![vite](https://img.shields.io/static/v1?message=vite&logo=vite&label=&color=646CFF&logoColor=white&labelColor=&style=for-the-badge)
+![clerk](https://img.shields.io/static/v1?message=clerk&logo=clerk&label=&color=6C47FF&logoColor=white&labelColor=&style=for-the-badge)
+
+</div>
 
  ## 🔐 Autenticación con Clerk
 
