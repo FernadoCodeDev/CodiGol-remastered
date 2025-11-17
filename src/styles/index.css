@@ -29,9 +29,9 @@
     .clip-trapezoid-left {
       clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
     }
-
   }
   
   body {
     @apply transition-colors duration-300 bg-white dark:bg-neutral-900;
   }
+  

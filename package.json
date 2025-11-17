@@ -1,28 +1,35 @@
 {
   "name": "codigol-remastered",
-  "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@astrojs/react": "^4.4.0",
-    "@astrojs/tailwind": "^6.0.2",
-    "astro": "^5.10.0",
-    "cally": "^0.8.0",
+    "@clerk/clerk-react": "^5.31.1",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-i18next": "^16.0.0",
     "react-masonry-css": "^1.0.16",
-    "react-toastify": "^11.0.5",
-    "swiper": "^12.0.3"
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "^5.0.0",
+    "react-tech-slider": "^1.8.21",
+    "tailwindcss": "^3.0.0"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.3"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

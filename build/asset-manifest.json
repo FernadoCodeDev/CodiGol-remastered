@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b51b3bf.css",
+    "main.js": "/static/js/main.9afe23c8.js",
+    "static/media/ExerciseFund.webp": "/static/media/ExerciseFund.f8178d29202bbf1af3f7.webp",
+    "static/media/TestFund.webp": "/static/media/TestFund.ad054efe30837f7eb692.webp",
+    "static/media/BankingFund.webp": "/static/media/BankingFund.09908ca7e45ddb6aad2e.webp",
+    "static/media/TrainingFund.webp": "/static/media/TrainingFund.8f16c0ac830f3af90162.webp",
+    "static/media/Background.webp": "/static/media/Background.749c271f63e3fca15305.webp",
+    "static/media/GemRubies.webp": "/static/media/GemRubies.de130d61f7956f2a8857.webp",
+    "static/media/SoarSwifts.webp": "/static/media/SoarSwifts.8166e83216a26d3dc205.webp",
+    "static/media/WindJaguars.webp": "/static/media/WindJaguars.965e7ceae40927268ae0.webp",
+    "static/media/JuggernautLeopard.webp": "/static/media/JuggernautLeopard.7e0c67e0f45f01b7e993.webp",
+    "static/media/CodeSharks.webp": "/static/media/CodeSharks.3b95b6dcf90db40e0546.webp",
+    "static/media/StyleChameleons.webp": "/static/media/StyleChameleons.ab9b9e04be3c9f50731e.webp",
+    "static/media/FerCode.webp": "/static/media/FerCode.661e342f3330f1f89a16.webp",
+    "static/media/TuskElephants.webp": "/static/media/TuskElephants.0761b943bdc62b83cde5.webp",
+    "static/media/PhantomViper.webp": "/static/media/PhantomViper.18762d13b51b9208d103.webp",
+    "static/media/GitHub.webp": "/static/media/GitHub.b71e0eafa32c42f40af8.webp",
+    "static/media/ByteGophers.webp": "/static/media/ByteGophers.a6f5b239df7d33f189a3.webp",
+    "static/media/WebHawks.webp": "/static/media/WebHawks.dfe82d2e72f96df88849.webp",
+    "static/media/KnightCoders.webp": "/static/media/KnightCoders.7802d6782debe7afc598.webp",
+    "static/media/TrainerPose1.webp": "/static/media/TrainerPose1.f19c181e6ec0c1b58c8d.webp",
+    "static/media/RivalGoalkeeper.webp": "/static/media/RivalGoalkeeper.26ddc1d9038643c06138.webp",
+    "static/media/MobileMenu.webp": "/static/media/MobileMenu.b9c2e010d8b9c09d5d25.webp",
+    "index.html": "/index.html",
+    "main.3b51b3bf.css.map": "/static/css/main.3b51b3bf.css.map",
+    "main.9afe23c8.js.map": "/static/js/main.9afe23c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b51b3bf.css",
+    "static/js/main.9afe23c8.js"
+  ]
+}

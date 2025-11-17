@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{astro,html,js,jsx,ts,tsx}"],
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
-       colors: {
+      colors: {
         beige: {
           50: "#f3efe6",
           100: "#ede7db",
@@ -20,7 +20,7 @@ export default {
         },
       },
       fontFamily: {
-        fantasy: ["Fantasy", "cursive"], 
+        fantasy: ["Fantasy", "cursive"],
         antonio: ["Antonio"], 
       },
     },
