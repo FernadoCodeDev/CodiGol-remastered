@@ -12,6 +12,7 @@ import TrainingPoint from "../ui/TrainingPoint";
 import Preview from "../ui/Preview";
 import Editor from "../ui/Editor";
 import ModalSize from "../ui/ModalSize";
+import ModalExplanation from "../ui/ModalExplanation";
 //exercises and evaluate Answer
 import exercises from "../data/exercises";
 import evaluateAnswer from "../utils/evaluateAnswer";
@@ -30,7 +31,6 @@ const Training = () => {
   const [code, setCode] = useState(defaultCode);
   const [showEditor, setShowEditor] = useState(false);
   const [lastTrainerText, setLastTrainerText] = useState(""); // View exercise button
-  const [showExplanation, setShowExplanation] = useState(false); // Request explanation
 
   //exercises and evaluate Answer
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
@@ -74,7 +74,6 @@ const Training = () => {
     unlockNextPage("/MatchPresentation");
   }, []);
 
-
   return (
     <div className="relative w-full h-dvh">
       <div
@@ -82,10 +81,10 @@ const Training = () => {
         style={{ backgroundImage: `url(${trainingFund})` }}
       ></div>
 
-      <div className="flex h-dvh gap-4 ">
+      <div className="flex h-dvh">
         <div
           style={{ width: previewWidth }}
-          className="relative h-[85%] mt-32 "
+          className="relative h-[85%] mt-32 p-1"
         >
           <Preview code={code} setCode={setCode} />
         </div>
@@ -118,16 +117,10 @@ const Training = () => {
 
           {showEditor && (
             <>
-              <div className="z-20 flex flex-col justify-center w-full h-full max-w-4xl gap-2 ">
-                <div className="flex flex-row w-full">
-                  <button
-                    className="max-w-[20rem] p-2 font-bold text-white bg-yellow-600 rounded  hover:bg-yellow-700"
-                    onClick={() => setShowExplanation(!showExplanation)}
-                  >
-                    {showExplanation
-                      ? "Ocultar explicación"
-                      : "Pedir explicaciones"}
-                  </button>
+              <div className="z-20 flex flex-col justify-center w-full h-full max-w-4xl gap-2 p-1">
+                <div className="flex flex-row w-full gap-1">
+
+                  <ModalExplanation />
 
                   <button
                     className="max-w-[20rem] p-2 font-bold text-white bg-sky-600 rounded  hover:bg-sky-700"
@@ -161,50 +154,15 @@ const Training = () => {
                   >
                     Verificar respuesta
                   </button>
+
                 </div>
 
-                {showExplanation && (
-                  <div className="w-full h-auto max-w-xl p-4 mt-2 text-black bg-white rounded-lg shadow-xl">
-                    <strong>Entrenador dice:</strong>
-                    <p>{currentExercise.prompt}</p>
+                <div className="bg-neutral-950 text-lg p-2 flex flex-col gap-2 text-slate-100 border rounded-2xl items-start">
+                  <strong>Entrenador dice:</strong>
 
-                    <strong>Recuerda:</strong>
+                  <p>{currentExercise.prompt}</p>
 
-                    <div className="grid grid-cols-2">
-                      <div className="grid grid-cols-2 gap-2 text-xs">
-                        <strong className="col-span-2">Tamaños</strong>
-                        <p>text-xs = 12px</p>
-                        <p>text-sm = 14px</p>
-                        <p>text-base = 16px</p>
-                        <p>text-lg = 18px</p>
-                        <p>text-xl = 20px</p>
-                        <p>text-2xl = 24px</p>
-                        <p>text-3xl = 30px</p>
-                        <p>text-4xl = 36px</p>
-                        <p>text-5xl = 48px</p>
-                        <p>text-6xl = 60px</p>
-                        <p>text-7xl = 72px</p>
-                        <p>text-8xl = 96px</p>
-                        <p>text-9xl = 128px</p>
-                      </div>
-
-                      <div className="flex flex-col gap-2 text-xs">
-                        <strong className="col-span-2">Responsive</strong>
-                        <p>menor a 640 no se usa ninguna clase</p>
-                        <p>sm desde 640px</p>
-                        <p>md desde 768px</p>
-                        <p>lg desde 1024px</p>
-                        <p>xl desde 1280px</p>
-                        <p>2xl desde 1536px</p>
-                      </div>
-
-                      <div className="flex flex-col col-span-2 gap-2 text-xs text-center">
-                        <strong className="">Ejemplo:</strong>
-                        <p>text-3xl lg:text-8xl</p>
-                      </div>
-                    </div>
-                  </div>
-                )}
+                </div>
                 <Editor code={code} setCode={setCode} />
               </div>
             </>
