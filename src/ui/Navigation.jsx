@@ -15,38 +15,23 @@ const Navigation = () => {
   const toggleModal = () => setIsModalOpen(!isModalOpen);
 
   return (
-    <div className="flex h-auto">
+    <div className="flex flex-row ">
+      {/*Menu sizes less than 720 px */}
       {menuOpen && (
         <div
-          className={`fixed top-0 left-0 w-full max-w-96 h-full bg-neutral-950/40 transition-transform duration-500 ease-in-out transform z-50 ${menuOpen ? "translate-x-0" : "-translate-x-full"
+          className={`
+            fixed top-0 left-0 w-full max-w-96 h-full bg-neutral-950 transition-transform 
+            duration-500 ease-in-out transform z-50 
+            ${menuOpen ? "translate-x-0" : "-translate-x-full"
             }`}
         >
-          {/* Close menu */}
+
           <CloseMenuIcon
             className="absolute right-0 w-20 h-auto cursor-pointer text-slate-100 top-5"
             onClick={toggleMenu}
           />
-          <nav className="p-4 ">
-            <div className="flex flex-col justify-between gap-2 p-8">
-              <h1 className="mb-4 text-5xl font-bold md:text-6xl text-slate-100">CódiGol</h1>
 
-              <button
-                onClick={toggleModal}
-                className="w-full px-6 py-2 font-semibold bg-white text-neutral-950 hover:bg-gray-200 rounded-xl"
-              >
-                Instrucciones
-              </button>
-
-              <a href="/">
-                <button className="w-full px-6 py-2 font-semibold bg-white text-neutral-950 hover:bg-gray-200 rounded-xl">
-                  Regresar
-                </button>
-              </a>
-            </div>
-          </nav>
         </div>
-
-
       )}
 
       <ModalInNavigation isOpen={isModalOpen} toggleModal={toggleModal} />
