@@ -38,7 +38,8 @@ const LessonIntro = () => {
           <Navigation />
         </div>
 
-        <div className="relative grid h-dvh grid-cols-1 col-span-4 ">
+        <div className="absolute bottom-0 w-full">
+
           {/* <ModalSize className="absolute" /> */}
 
           {/*  

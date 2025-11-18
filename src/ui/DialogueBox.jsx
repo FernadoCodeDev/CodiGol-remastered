@@ -62,38 +62,50 @@ const DialogueBox = ({ level = 1, currentPhase, onFinishDialog }) => {
   const isTrainer = speaker === "trainer";
 
   return (
-    <div className="flex items-end justify-end  max-w-7xl">
+    <div className="flex items-end justify-center w-full bottom-0 ">
       {isTrainer && (
         <img
           src={TrainerPose1}
           alt="TrainerPose1"
-          className="z-10 object-contain w-40 md:w-56 lg:w-64"
+          className="relative z-10 object-contain w-40 md:w-56 lg:w-64"
         />
       )}
 
-      <div className=" flex-1 h-[25%] w-full max-w-4xl bottom-0 p-6 mb-4 mr-4 text-lg text-white bg-black/50 backdrop-blur-[3px] rounded-lg shadow-xl bg-opacity-80 md:text-xl">
-        <p>{text}</p>
-        {index < currentDialogue.length - 1 ? (
-          <button
-            onClick={handleNext}
-            className="px-4 py-2 mt-4 font-semibold text-white bg-blue-700 rounded hover:bg-blue-800"
-          >
-            Siguiente
-          </button>
-        ) : (
-          <button
-            onClick={() => {
-              if (onFinishDialog) {
-                onFinishDialog(text); // have the last dialogue as an explanation for the exercise
-              } else {
-                handleFinishLevel(); //directional button to other phases
-              }
-            }}
-            className="px-4 py-2 mt-4 font-semibold text-white bg-green-700 rounded hover:bg-green-800"
-          >
-            Continuar
-          </button>
-        )}
+      <div className=" absolute w-full bottom-0 px-8 py-12 text-lg text-slate-100 md:text-xl
+        bg-gradient-to-b 
+        from-transparent 
+        from-1%
+        via-neutral-950/60 
+        via-10%
+        to-neutral-950/60
+        to-90%
+        z-20">
+        <div className="flex flex-col items-start m-auto gap-4 w-full max-w-5xl">
+
+          <p className="text-center ">{text}</p>
+          {index < currentDialogue.length - 1 ? (
+            <button
+              onClick={handleNext}
+              className="px-4 py-2  ml-auto text-white bg-blue-700 rounded hover:bg-blue-800"
+            >
+              Siguiente
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                if (onFinishDialog) {
+                  onFinishDialog(text); // have the last dialogue as an explanation for the exercise
+                } else {
+                  handleFinishLevel(); //directional button to other phases
+                }
+              }}
+              className="px-4 py-2  ml-auto text-white bg-green-700 rounded hover:bg-green-800"
+            >
+              Continuar
+            </button>
+          )}
+        </div>
+
       </div>
     </div>
   );
