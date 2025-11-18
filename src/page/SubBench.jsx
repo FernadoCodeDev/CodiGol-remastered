@@ -3,7 +3,7 @@ import SubBench from "../screens/SubBench";
 
 const SubBenchPage = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-dvh">
       <SubBench />
     </div>
   );

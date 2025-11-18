@@ -21,7 +21,7 @@ const FinalScene = () => {
     navigate("/", { replace: true });
   };
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-2 px-4 py-8 bg-slate-100">
+    <div className="flex flex-col items-center justify-center min-h-dvh gap-2 px-4 py-8 bg-slate-100">
       <div className="w-full text-2xl max-w-[80rem] text-slate-600 font-bold flex flex-row justify-between p-2 border-b-4 border-neutral-800">
         <EventTime />
 

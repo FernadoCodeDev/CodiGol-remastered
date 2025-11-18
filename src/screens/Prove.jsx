@@ -11,7 +11,7 @@ export default function CodeEditor() {
   const [code, setCode] = useState(defaultCode);
 
   return (
-    <div className="grid min-h-screen grid-cols-2 gap-4 p-4 bg-gray-100">
+    <div className="grid h-dvh grid-cols-2 gap-4 p-4 bg-gray-100">
  
       <div className="flex flex-col">
         <h2 className="mb-2 text-2xl font-bold">Editor Tailwind</h2>

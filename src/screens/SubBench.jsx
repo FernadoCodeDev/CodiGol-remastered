@@ -17,7 +17,7 @@ const SubBench = () => {
   }, []);
 
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div
         className="absolute inset-0 bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${BankingFund})` }}
@@ -30,7 +30,7 @@ const SubBench = () => {
 
         {/* <ModalSize className="absolute" /> */}
 
-        <div className="relative grid min-h-screen grid-cols-1 col-span-4 ">
+        <div className="relative grid h-dvh grid-cols-1 col-span-4 ">
 
           <DialogueBox level={level} currentPhase="SubBench" />
         </div>

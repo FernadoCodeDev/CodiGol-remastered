@@ -3,7 +3,7 @@ import FinalScore from "../screens/FinalScore";
 
 const FinalScorePage = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-dvh">
       <FinalScore />
     </div>
   );

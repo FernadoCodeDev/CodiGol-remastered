@@ -3,7 +3,7 @@ import FinalScene from "../screens/FinalScene";
 
 const FinalScenePage = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-dvh">
       <FinalScene />
     </div>
   );

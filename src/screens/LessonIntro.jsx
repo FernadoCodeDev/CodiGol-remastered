@@ -27,7 +27,7 @@ const LessonIntro = () => {
   }, []);
 
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div
         className="absolute inset-0 bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${trainingFund})` }}
@@ -38,7 +38,7 @@ const LessonIntro = () => {
           <Navigation />
         </div>
 
-        <div className="relative grid min-h-screen grid-cols-1 col-span-4 ">
+        <div className="relative grid h-dvh grid-cols-1 col-span-4 ">
           {/* <ModalSize className="absolute" /> */}
 
           {/*  

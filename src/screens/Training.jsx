@@ -76,13 +76,13 @@ const Training = () => {
 
 
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div
         className="absolute inset-0 bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${trainingFund})` }}
       ></div>
 
-      <div className="flex h-screen gap-4 ">
+      <div className="flex h-dvh gap-4 ">
         <div
           style={{ width: previewWidth }}
           className="relative h-[85%] mt-32 "
@@ -101,7 +101,7 @@ const Training = () => {
           className="relative w-2 bg-yellow-500 cursor-col-resize hover:bg-yellow-700"
         ></div>
 
-        <div className="relative flex flex-col justify-end flex-1 min-h-screen">
+        <div className="relative flex flex-col justify-end flex-1 h-dvh">
           <div className="bottom-0 w-full ">
             {/* Scene sequence: coach's dialogue, exercise */}
             {!showEditor && (

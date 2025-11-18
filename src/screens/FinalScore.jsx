@@ -26,7 +26,7 @@ const FinalScore = () => {
   }, [navigate]);
 
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div
         className="absolute inset-0 bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${Background})` }}
@@ -39,7 +39,7 @@ const FinalScore = () => {
 
         {/* <ModalSize className="absolute" /> */}
 
-        <div className="relative flex flex-col min-h-screen col-span-4 text-center text-white ">
+        <div className="relative flex flex-col h-dvh col-span-4 text-center text-white ">
           <h1 className="text-6xl font-bold md:text-6xl drop-shadow-lg">
             Liga Full Stack
           </h1>

@@ -3,7 +3,7 @@ import Prove from "../screens/Prove";
 
 const ProvePage = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-dvh">
       <Prove />
     </div>
   );

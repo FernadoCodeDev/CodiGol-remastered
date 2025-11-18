@@ -28,7 +28,7 @@ const Home = () => {
   };
 
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div
         className="absolute inset-0 bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${Background})` }}
@@ -38,7 +38,7 @@ const Home = () => {
 
       {/* <ModalSize className="absolute" /> */}
 
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center text-white">
+      <div className="relative z-10 flex flex-col items-center justify-center h-dvh px-4 text-center text-white">
         <h1 className="mb-4 text-5xl font-bold md:text-6xl">
           Bienvenido a <span className="text-yellow-500">CódiGol</span>
         </h1>

@@ -117,7 +117,7 @@ const LeagueTable = () => {
   }, [navigate]);
 
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div
         className="absolute inset-0 bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${Background})` }}

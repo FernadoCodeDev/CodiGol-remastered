@@ -3,7 +3,7 @@ import MatchPresentation from "../screens/MatchPresentation";
 
 const MatchPresentationPage = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-dvh">
       <MatchPresentation />
     </div>
   );
