@@ -22,15 +22,15 @@ const SubBench = () => {
         className="absolute inset-0 bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${BankingFund})` }}
       ></div>
-
-      <div className="grid items-center justify-center grid-cols-5 gr ">
-        <div className="relative z-20 h-full ">
+a
+      <div className="grid items-center justify-center grid-cols-5 ">
+        <div className="relative z-20 h-full text-slate-100">
           <Navigation />
         </div>
 
         {/* <ModalSize className="absolute" /> */}
 
-        <div className="relative grid h-dvh grid-cols-1 col-span-4 ">
+        <div className="absolute bottom-0 w-full ">
 
           <DialogueBox level={level} currentPhase="SubBench" />
         </div>
