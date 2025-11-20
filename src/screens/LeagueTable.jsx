@@ -105,7 +105,7 @@ const LeagueTable = () => {
   );
 
   const navigate = useNavigate();
-
+/*
   useEffect(() => {
     unlockNextPage("/FinalScene");
 
@@ -115,6 +115,7 @@ const LeagueTable = () => {
 
     return () => clearTimeout(timeout);
   }, [navigate]);
+  */
 
   return (
     <div className="relative w-full h-dvh">
@@ -123,19 +124,19 @@ const LeagueTable = () => {
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
-      <div className="grid items-center justify-center grid-cols-5 ">
-        <div className="relative z-20 h-full ">
+      <div className="flex flex-row h-full">
+        <div className="relative z-20 h-full text-slate-100">
           <Navigation />
         </div>
 
         {/* <ModalSize className="absolute" /> */}
 
-        <div className="relative text-white  col-span-4 p-6 m-auto max-w-[60rem]">
-          <h1 className="text-4xl font-bold text-white drop-shadow-lg">
+        <div className="relative text-white flex flex-col text-center p-6 m-auto max-w-[60rem]">
+          <h1 className="text-4xl font-bold text-white drop-shadow-lg mb-6">
             Tabla de Resultados
           </h1>
 
-          <div className="grid grid-cols-6 gap-4 p-3 font-bold bg-black/40 rounded-xl">
+          <div className="grid grid-cols-6 gap-4 p-3 font-bold bg-neutral-950/60 rounded-t-2xl">
             <div className="col-span-2 text-center">Equipo</div>
             <div className="text-center">Ganados</div>
             <div className="text-center">Empates</div>
@@ -146,7 +147,7 @@ const LeagueTable = () => {
           {leagueTable.map((team) => (
             <div
               key={team.id}
-              className="grid items-center grid-cols-6 gap-4 p-3 transition bg-white bg-opacity-20 backdrop-blur-[3px] hover:bg-opacity-30"
+              className="grid items-center grid-cols-6 gap-4 p-3 last-of-type:rounded-b-2xl transition bg-neutral-950/60  hover:bg-neutral-950/70"
             >
               <div className="flex items-center col-span-2">
                 <img
