@@ -14,16 +14,16 @@ const FinalScore = () => {
     useGame();
 
   const navigate = useNavigate();
-
+ /*
   useEffect(() => {
     unlockNextPage("/LeagueTable");
-
-    const timeout = setTimeout(() => {
+   const timeout = setTimeout(() => {
       navigateToNextPhase("FinalScore", navigate);
-    }, 15000);
+    }, );
 
     return () => clearTimeout(timeout);
   }, [navigate]);
+  */
 
   return (
     <div className="relative w-full h-dvh">
@@ -32,14 +32,14 @@ const FinalScore = () => {
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
-      <div className="grid items-center justify-center grid-cols-5">
-        <div className="relative z-20 h-full ">
+      <div className="flex flex-row h-full">
+        <div className="relative z-20 h-full text-slate-100">
           <Navigation />
         </div>
 
         {/* <ModalSize className="absolute" /> */}
 
-        <div className="relative flex flex-col h-dvh col-span-4 text-center text-white ">
+        <div className="relative flex flex-col h-full m-auto p-4 text-center text-white ">
           <h1 className="text-6xl font-bold md:text-6xl drop-shadow-lg">
             Liga Full Stack
           </h1>
