@@ -5,7 +5,7 @@ import TrainerPose1 from "../assets/img/TrainerPose1.webp";
 import lessonIntroDialogues from "../data/Dialogue";
 import trainingDialogues from "../data/Training";
 import SubBenchDialogues from "../data/SubBench"
-import { useGame } from "../context/GameContext"; // Game context
+import { useGame } from "../features/league/data/GameContext"; // Game context
 
 const getDialoguesByPhase = (phase) => {
   switch (phase) {
