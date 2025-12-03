@@ -4,7 +4,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { useUser } from "@clerk/clerk-react";
 import { unlockNextPage } from "@/core/utils/routeGuard";
 import ProtectedRoute from "@/features/auth/components/ProtectedRoute";
-import trainingFund from "assets/img/ExerciseFund.webp";
+import trainingFund from "@/assets/img/ExerciseFund.webp";
 import Navigation from "@/ui/Navigation";
 import DialogueBox from "@/ui/DialogueBox";
 import TrainingPoint from "@/ui/TrainingPoint";

@@ -5,21 +5,21 @@ import { navigateToNextPhase } from "@/core/utils/navigateToNextPhase";
 import { useUser } from "@clerk/clerk-react";
 import { unlockNextPage } from "@/core/utils/routeGuard";
 import ProtectedRoute from "@/features/auth/components/ProtectedRoute";
-import Background from "assets/img/Background.webp";
 import Navigation from "@/ui/Navigation";
 import DialogueBox from "@/ui/DialogueBox";
 import ModalSize from "@/ui/ModalSize";
-import PhantomViper from "assets/img/PhantomViper.webp";
-import GemRubies from "assets/img/GemRubies.webp";
-import TuskElephants from "assets/img/TuskElephants.webp";
-import JuggernautLeopard from "assets/img/JuggernautLeopard.webp";
-import CodeSharks from "assets/img/CodeSharks.webp";
-import SoarSwifts from "assets/img/SoarSwifts.webp";
-import KnightCoders from "assets/img/KnightCoders.webp";
-import ByteGophers from "assets/img/ByteGophers.webp";
-import StyleChameleons from "assets/img/StyleChameleons.webp";
-import WindJaguars from "assets/img/WindJaguars.webp";
 import { useGame } from "@/features/league/data/leagueData";
+import Background from "@/assets/img/Background.webp";
+import PhantomViper from "@/assets/img/PhantomViper.webp";
+import GemRubies from "@/assets/img/GemRubies.webp";
+import TuskElephants from "@/assets/img/TuskElephants.webp";
+import JuggernautLeopard from "@/assets/img/JuggernautLeopard.webp";
+import CodeSharks from "@/assets/img/CodeSharks.webp";
+import SoarSwifts from "@/assets/img/SoarSwifts.webp";
+import KnightCoders from "@/assets/img/KnightCoders.webp";
+import ByteGophers from "@/assets/img/ByteGophers.webp";
+import StyleChameleons from "@/assets/img/StyleChameleons.webp";
+import WindJaguars from "@/assets/img/WindJaguars.webp";
 
 export const teams = [
   { id: 1, name: "Wind Jaguars", logo: WindJaguars },

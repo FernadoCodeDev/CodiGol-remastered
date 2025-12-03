@@ -6,12 +6,12 @@ import { useEffect, useState } from "react";
 import { unlockNextPage } from "@/core/utils/routeGuard";
 import ProtectedRoute from "@/features/auth/components/ProtectedRoute";
 import ModalSize from "@/ui/ModalSize";
-import TestFund from "@/assets/img/TestFund.webp";
 import Navigation from "@/ui/Navigation";
 import DialogueBox from "@/ui/DialogueBox";
-import RivalGoalkeeper from "@/assets/img/RivalGoalkeeper.webp";
 import Preview from "@/ui/Preview";
 import Editor from "@/ui/Editor";
+import TestFund from "@/assets/img/TestFund.webp";
+import RivalGoalkeeper from "@/assets/img/RivalGoalkeeper.webp";
 //GameData and evaluate Answer
 import GameData from "@/features/matches/data/Game";
 import evaluateAnswer from "@/core/utils/evaluateAnswer";

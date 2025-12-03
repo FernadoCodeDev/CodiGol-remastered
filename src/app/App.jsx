@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ClerkProvider } from "@clerk/clerk-react";
-const clerkFrontendApi = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
+const clerkFrontendApi = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 import ProtectedRoute from "@/features/auth/components/ProtectedRoute";
 
 import Home from "@/features/home/page/Home";

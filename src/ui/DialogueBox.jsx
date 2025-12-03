@@ -1,7 +1,7 @@
 //DialogueBox
 import { useState } from "react";
 import { useNavigate } from "react-router-dom"; //
-import TrainerPose1 from "assets/img/TrainerPose1.webp";
+import TrainerPose1 from "@/assets/img/TrainerPose1.webp";
 import lessonIntroDialogues from "@/features/training/data/trainingDialogues";
 import trainingDialogues from "@/features/training/data/trainingDialogues";
 import SubBenchDialogues from "@/features/matches/data/SubBench";
