@@ -13,7 +13,7 @@ const FinalScore = () => {
     useGame();
 
   const navigate = useNavigate();
-  /*
+  
    useEffect(() => {
      unlockNextPage("/LeagueTable");
     const timeout = setTimeout(() => {
@@ -22,7 +22,7 @@ const FinalScore = () => {
  
      return () => clearTimeout(timeout);
    }, [navigate]);
-   */
+ 
 
   return (
     <div className="relative w-full h-dvh">
@@ -52,7 +52,7 @@ const FinalScore = () => {
               <img
                 src={playerTeam.logo}
                 alt={playerTeam.name}
-                className="w-full h-auto"
+                className="object-contain w-80 h-80"
               />
               <div className="w-full h-2 bg-white"></div>
               <h1 className="text-4xl font-bold text-center">
@@ -70,7 +70,7 @@ const FinalScore = () => {
               <img
                 src={rivalTeam.logo}
                 alt={rivalTeam.name}
-                className="w-full h-auto"
+                className="object-contain w-80 h-80"
               />
               <div className="w-full h-2 bg-white"></div>
               <h1 className="text-4xl font-bold text-center">

@@ -94,7 +94,7 @@ const LeagueTable = () => {
   );
 
   const navigate = useNavigate();
-  /*
+  
     useEffect(() => {
       unlockNextPage("/FinalScene");
   
@@ -104,7 +104,6 @@ const LeagueTable = () => {
   
       return () => clearTimeout(timeout);
     }, [navigate]);
-    */
 
   return (
     <div className="relative w-full h-dvh">

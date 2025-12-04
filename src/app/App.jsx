@@ -25,65 +25,65 @@ const App = () => {
           <Route
             path="/LessonIntro"
             element={
-              <ProtectedRoute>
+             /*  <ProtectedRoute>*/
                 <LessonIntro />
-              </ProtectedRoute>
+             /*  </ProtectedRoute>*/
             }
           />
           <Route
             path="/Training"
             element={
-              <ProtectedRoute>
+              /*<ProtectedRoute>*/
                 <Training />
-              </ProtectedRoute>
+              /*</ProtectedRoute>*/
             }
           />
           <Route
             path="/MatchPresentation"
             element={
-              <ProtectedRoute>
+              /*<ProtectedRoute>*/
                 <MatchPresentation />
-              </ProtectedRoute>
+              /*</ProtectedRoute>*/
             }
           />
           <Route
             path="/SubBench"
             element={
-              <ProtectedRoute>
+              /*<ProtectedRoute>*/
                 <SubBench />
-              </ProtectedRoute>
+              /*</ProtectedRoute>*/
             }
           />
           <Route
             path="/Game"
             element={
-              <ProtectedRoute>
+              /*<ProtectedRoute>*/
                 <Game />
-              </ProtectedRoute>
+              /*</ProtectedRoute>*/
             }
           />
           <Route
             path="/FinalScore"
             element={
-              <ProtectedRoute>
+              /*<ProtectedRoute>*/
                 <FinalScore />
-              </ProtectedRoute>
+              /*</ProtectedRoute>*/
             }
           />
           <Route
             path="/LeagueTable"
             element={
-              <ProtectedRoute>
+              /*<ProtectedRoute>*/
                 <LeagueTable />
-              </ProtectedRoute>
+              /*</ProtectedRoute>*/
             }
           />
           <Route
             path="/FinalScene"
             element={
-              <ProtectedRoute>
+              /*<ProtectedRoute>*/
                 <FinalScene />
-              </ProtectedRoute>
+              /*</ProtectedRoute>*/
             }
           />
           <Route path="/Prove" element={<Prove />} />

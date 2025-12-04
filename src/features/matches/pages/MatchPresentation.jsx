@@ -53,7 +53,7 @@ const MatchPresentation = () => {
 
           <div className="grid grid-cols-3 m-auto max-w-[60rem]">
             <div className="flex flex-col items-center justify-center gap-2 text-white">
-              <img src="/img/WindJaguars.webp" alt="WindJaguars" className="w-full h-auto" />
+              <img src="/img/WindJaguars.webp" alt="WindJaguars" className="object-contain w-80 h-80" />
               <div className="w-full h-2 bg-white"></div>
               <h1 className="text-4xl font-bold text-center">Wind Jaguars</h1>
             </div>
@@ -66,7 +66,7 @@ const MatchPresentation = () => {
               <img
                 src={matchData.Rivalimg}
                 alt={matchData.RivalsName}
-                className="w-full h-auto"
+                className="object-contain w-80 h-80"
               />
               <div className="w-full h-2 bg-white"></div>
               <h1 className="text-4xl font-bold text-center">

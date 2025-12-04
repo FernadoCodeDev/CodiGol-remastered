@@ -22,7 +22,6 @@ export default function CodeEditor() {
           style={{ minHeight: "400px" }}
         ></textarea>
       </div>
-
   
       <div className="flex flex-col">
         <h2 className="mb-2 text-2xl font-bold">Vista previa</h2>

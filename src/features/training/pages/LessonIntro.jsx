@@ -64,9 +64,8 @@ const LessonIntro = () => {
           
           */}
 
-          {/*
           <DialogueBox level={level} currentPhase="LessonIntro" />
-           */}
+           
         </div>
       </div>
     </div>
