@@ -1,4 +1,4 @@
-![CódiGolLogo](https://github.com/FernandoMejiaDev/CodiGol-remastered-/blob/main/assets/img/CodiGolLogo.webp)
+![CódiGolLogo](https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/CodiGolLogo.webp)
 
 #  ⚽ **CódiGol**
 
