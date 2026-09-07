@@ -82,36 +82,37 @@ const Game = () => {
   // out or that he has made a mistake.
 
   const [timerResetKey, setTimerResetKey] = useState(0);
+  const [timeoutProcessing, setTimeoutProcessing] = useState(false);
 
   const nextExercise = () => {
     if (currentExerciseIndex < GameData.length - 1) {
       setAttempts(0);
       setCurrentExerciseIndex((prev) => prev + 1);
       setCode(defaultCode);
+
       setTimerResetKey((prev) => prev + 1);
+      setTimeoutProcessing(false);
       //In both cases, whether the exercise is good or bad,
       // the timer is reset.
-    } else {
-      const completionMessage = getCompletionMessage();
 
-      setAlert({
-        show: true,
-        message: completionMessage,
-        type: "complete"
-      });
-
-      setTimeout(handleFinishLevel, 7000);
+      return;
     }
-  };
 
-  const [timeoutProcessing, setTimeoutProcessing] = useState(false);
+    const completionMessage = getCompletionMessage();
+
+    setAlert({
+      show: true,
+      message: completionMessage,
+      type: "complete",
+    });
+
+    setTimeout(handleFinishLevel, 7000);
+  };
 
   const handleTimeOut = () => {
     if (timeoutProcessing) return;
 
     setTimeoutProcessing(true);
-
-    //console.log("TIMEOUT", currentExerciseIndex);
 
     const feedback = analyzeAnswer(
       {},
@@ -129,7 +130,6 @@ const Game = () => {
 
     setTimeout(() => {
       nextExercise();
-      setTimeoutProcessing(false);
     }, 1000);
   };
 
