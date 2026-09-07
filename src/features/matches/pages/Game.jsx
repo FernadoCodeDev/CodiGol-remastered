@@ -256,8 +256,7 @@ const Game = () => {
                     // Next Exercise
 
                     setTimeout(() => {
-                      setCurrentExerciseIndex(prev => prev + 1);
-                      setCode(defaultCode);
+                      nextExercise();
                     }, 2000);
                     // Completed
 
