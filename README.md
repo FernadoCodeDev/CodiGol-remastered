@@ -402,13 +402,25 @@ Por ejemplo, un equipo con una mayor capacidad ofensiva puede tener una mayor pr
 
 *Imágenes: Datos de fuerza, ataque y defensa de los equipos de la liga*
 
-# Resultado de la mejora
+## Resultado de la mejora
 
 El cambio permite que la clasificación de la **Full Stack League** se genere de forma más dinámica y escalable.
 
 En lugar de almacenar manualmente los resultados de cada jornada, el sistema puede utilizar los datos de los equipos para generar los encuentros automáticamente. Esto resulta especialmente importante teniendo en cuenta que una temporada completa puede llegar a tener **30 jornadas y múltiples enfrentamientos entre los 16 equipos**.
 
 La remasterización transforma así los partidos secundarios de resultados estáticos en una simulación basada en las características de cada equipo, mientras que los partidos de Wind Jaguars continúan dependiendo directamente del desempeño del jugador.
+
+## Alcance de la demo
+
+CódiGol Remastered está planteado como una experiencia **completamente frontend**, por lo que actualmente no utiliza una base de datos ni un backend para almacenar el progreso del jugador o los resultados de la competición.
+
+Los datos necesarios para el funcionamiento del juego se gestionan localmente en el navegador, utilizando mecanismos de almacenamiento del lado del cliente. Esto permite mantener el proyecto como una demo independiente y sencilla de ejecutar, sin necesidad de administrar infraestructura adicional.
+
+Aunque la **Full Stack League** está diseñada conceptualmente para una temporada de hasta 30 jornadas, la versión actual de la demo está limitada a **3 partidos jugables**, correspondientes a la primera jornada.
+
+Esta limitación es intencional y permite mantener el alcance de la demostración controlado, evitando almacenar y procesar una cantidad innecesaria de información dentro de una aplicación que actualmente funciona únicamente en el frontend.
+
+El objetivo de esta versión es demostrar el funcionamiento de las mecánicas principales del juego, la progresión de las lecciones y el sistema de competición, sin convertir la demo en una aplicación que requiera una infraestructura de datos más compleja.
 
  ---
  
