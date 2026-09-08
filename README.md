@@ -365,15 +365,50 @@ Galería de escudos de los equipos de la Full Stack League.
 </details>
 
 <details>
- <summary>Partidos</summary>
+ <summary>Sistema de partidos</summary>
 
-<details>
- <summary>Partidos de Wind Jaguars</summary>
- 
- ---
- 
-</details> 
+ # Sistema de partidos
 
+ La **Full Stack League** está formada por **16 equipos**. Cada equipo puede enfrentarse al resto de la competición en una temporada de ida y vuelta, dando lugar a un calendario de hasta 30 jornadas.
+
+Uno de los cambios más importantes de la remasterización fue replantear la forma en que se determinan los resultados de los partidos que el jugador no disputa directamente.
+
+## Partidos de Wind Jaguars
+
+Los partidos de los **Wind Jaguars** están directamente controlados por el jugador.
+
+Durante cada encuentro, las respuestas a los ejercicios de **Tailwind CSS** determinan las acciones realizadas durante el partido y, en consecuencia, el resultado final del encuentro.
+
+De esta manera, el desempeño del jugador tiene un impacto real en la clasificación: **sus decisiones durante los ejercicios pueden convertirse en goles, empates o derrotas**, afectando directamente la posición de los Wind Jaguars en la liga.
+
+## Partidos de los demás equipos
+
+En **CódiGol (versión original)**, los resultados de los partidos que no involucraban a los Wind Jaguars estaban definidos previamente en los datos del proyecto. Esto significaba que cada jornada tenía resultados predeterminados.
+
+Para la remasterización, este sistema fue reemplazado por una **simulación dinámica de partidos**.
+
+Cada equipo cuenta con tres características principales:
+- **Strength:** fuerza general del equipo.
+- **Attack:** capacidad ofensiva.
+- **Defense:** capacidad defensiva.
+
+Estos valores se almacenan junto con los datos de cada equipo y se utilizan como parámetros para calcular las probabilidades del resultado de un encuentro.
+
+Cuando se genera una jornada, el sistema toma las características de los dos equipos enfrentados y ejecuta la simulación correspondiente. A partir de sus valores de fuerza, ataque y defensa se obtienen las probabilidades necesarias para determinar el resultado del partido.
+
+Esto permite que los encuentros de los demás equipos **no estén predeterminados**, sino que sus resultados puedan variar de acuerdo con las características de los equipos que participan.
+
+Por ejemplo, un equipo con una mayor capacidad ofensiva puede tener una mayor probabilidad de conseguir un resultado favorable, mientras que una defensa más sólida puede influir en su capacidad para evitar una derrota. Sin embargo, las características de los equipos no garantizan un resultado concreto, permitiendo que la clasificación pueda cambiar entre jornadas.
+
+*Imágenes: Datos de fuerza, ataque y defensa de los equipos de la liga*
+
+# Resultado de la mejora
+
+El cambio permite que la clasificación de la **Full Stack League** se genere de forma más dinámica y escalable.
+
+En lugar de almacenar manualmente los resultados de cada jornada, el sistema puede utilizar los datos de los equipos para generar los encuentros automáticamente. Esto resulta especialmente importante teniendo en cuenta que una temporada completa puede llegar a tener **30 jornadas y múltiples enfrentamientos entre los 16 equipos**.
+
+La remasterización transforma así los partidos secundarios de resultados estáticos en una **simulación basada en las características de cada equipo**, mientras que los partidos de Wind Jaguars continúan dependiendo directamente del desempeño del jugador.
  ---
  
 </details>
