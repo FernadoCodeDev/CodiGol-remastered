@@ -102,14 +102,13 @@ Durante la transmisión final de la Hackathon organizada por *[Midudev](https://
 
 </div>
 
-
 # Detalles del Juego 
 
 ## Historia y Temática de CódiGol
 
 En **CódiGol**, el jugador se une a los **Wind Jaguars**, un equipo decidido a conquistar la **Full Stack League**. Desde el comienzo, el entrenador da la bienvenida al jugador y explica cómo será su camino dentro del equipo: **cada partido representa una nueva lección de Tailwind CSS**.
 
-El recorrido está compuesto por **15 partidos**, y cada uno introduce un nuevo concepto o técnica de **Tailwind CSS** que el jugador deberá aprender y aplicar durante el encuentro.
+El recorrido está compuesto por **3 partidos**, y cada uno introduce un nuevo concepto o técnica de **Tailwind CSS** que el jugador deberá aprender y aplicar durante el encuentro.
 
 En el primer partido, por ejemplo, el jugador comienza aprendiendo sobre **diseño responsivo y clases de texto**, para posteriormente poner estos conocimientos en práctica durante el entrenamiento y el partido.
 
