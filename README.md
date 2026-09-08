@@ -408,7 +408,8 @@ El cambio permite que la clasificación de la **Full Stack League** se genere de
 
 En lugar de almacenar manualmente los resultados de cada jornada, el sistema puede utilizar los datos de los equipos para generar los encuentros automáticamente. Esto resulta especialmente importante teniendo en cuenta que una temporada completa puede llegar a tener **30 jornadas y múltiples enfrentamientos entre los 16 equipos**.
 
-La remasterización transforma así los partidos secundarios de resultados estáticos en una **simulación basada en las características de cada equipo**, mientras que los partidos de Wind Jaguars continúan dependiendo directamente del desempeño del jugador.
+La remasterización transforma así los partidos secundarios de resultados estáticos en una simulación basada en las características de cada equipo, mientras que los partidos de Wind Jaguars continúan dependiendo directamente del desempeño del jugador.
+
  ---
  
 </details>
