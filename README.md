@@ -222,7 +222,7 @@ Este modal tiene como objetivo evitar problemas de visualización y usabilidad, 
 
 # Sistema de alertas
 
-Las alertas cumplen una función importante dentro de CódiGol: comunicar al jugador el resultado de cada ejercicio y mantener la respuesta integrada dentro del contexto del partido o del entrenamiento.
+Las alertas cumplen una función importante dentro de **CódiGol:** comunicar al jugador el resultado de cada ejercicio y mantener la respuesta integrada dentro del contexto del partido o del entrenamiento.
 
 ## Versión original
 
