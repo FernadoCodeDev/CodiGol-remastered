@@ -325,7 +325,7 @@ Los siguientes equipos forman parte de la competición:
 
 Galería de escudos de los equipos de la Full Stack League.
 
-<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/wind_Jaguars_team.webp" alt="Wind_Jaguars_team" /> 
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Wind_Jaguars_team.webp" alt="Wind_Jaguars_team" /> 
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Gem_Rubies_team.webp" alt="Gem_Rubies_team" /> 
 
