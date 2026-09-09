@@ -349,9 +349,6 @@ Galería de escudos de los equipos de la Full Stack League.
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Web_Hawks_team.webp" alt="Web_Hawks_team" /> 
 
----
-###
-
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Cache_Rhinos_team.webp" alt="Cache_Rhinos_team" /> 
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Kernel_Titans_team.webp" alt="Kernel_Titans_team" /> 
@@ -424,6 +421,14 @@ Por ejemplo, un equipo con una mayor capacidad ofensiva puede tener una mayor pr
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Forge_MinotaursData.webp" alt="Forge_MinotaursData" /> 
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Web_HawsData.webp" alt="Web_HawksData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Cache_RhinosData.webp" alt="Cache_RhinosData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Kernel_TitansData.webp" alt="Kernel_TitansData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Stack_BisonsData.webp" alt="Stack_BisonsData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Vector_DragonsData.webp" alt="Vector_DragonsData" /> 
 
 
 ## Resultado de la mejora
