@@ -325,7 +325,7 @@ Los siguientes equipos forman parte de la competición:
 
 Galería de escudos de los equipos de la Full Stack League.
 
-<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/wind_JaguarsData.webp" alt="Wind_Jaguars_team" /> 
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/wind_Jaguars_team.webp" alt="Wind_Jaguars_team" /> 
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Gem_Rubies_team.webp" alt="Gem_Rubies_team" /> 
 
@@ -401,13 +401,13 @@ Por ejemplo, un equipo con una mayor capacidad ofensiva puede tener una mayor pr
 
 *Imágenes: Datos de fuerza, ataque y defensa de los equipos de la liga*
 
-<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Wind_JaguarsData.webp" alt="Wind_JaguarsData" /> 
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/wind_JaguarsData.webp" alt="Wind_JaguarsData" /> 
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Gem_RubiesData.webp" alt="Gem_RubiesData" /> 
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Tusk_ElephantsData.webp" alt="Tusk_ElephantsData" /> 
 
-<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Juggernaut_LeopardsData.webp" alt="Juggernaut_LeopardsData" /> 
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Juggernaut_LeopardData.webp" alt="Juggernaut_LeopardsData" /> 
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Code_SharksData.webp" alt="Code_SharksData" /> 
 
@@ -423,7 +423,7 @@ Por ejemplo, un equipo con una mayor capacidad ofensiva puede tener una mayor pr
 
 <img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Forge_MinotaursData.webp" alt="Forge_MinotaursData" /> 
 
-<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Web_HawksData.webp" alt="Web_HawksData" /> 
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Web_HawsData.webp" alt="Web_HawksData" /> 
 
 
 ## Resultado de la mejora
