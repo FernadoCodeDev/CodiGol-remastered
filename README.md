@@ -401,6 +401,31 @@ Por ejemplo, un equipo con una mayor capacidad ofensiva puede tener una mayor pr
 
 *Imágenes: Datos de fuerza, ataque y defensa de los equipos de la liga*
 
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Wind_JaguarsData.webp" alt="Wind_JaguarsData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Gem_RubiesData.webp" alt="Gem_RubiesData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Tusk_ElephantsData.webp" alt="Tusk_ElephantsData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Juggernaut_LeopardsData.webp" alt="Juggernaut_LeopardsData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Code_SharksData.webp" alt="Code_SharksData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Soar_SwiftsData.webp" alt="Soar_SwiftsData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Knight_CodersData.webp" alt="Knight_CodersData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Byte_GophersData.webp" alt="Byte_GophersData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Style_ChameleonsData.webp" alt="Style_ChameleonsData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Phantom_ViperData.webp" alt="Phantom_ViperData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Forge_MinotaursData.webp" alt="Forge_MinotaursData" /> 
+
+<img src="https://github.com/FernandoMejiaDev/CodiGol-remastered/blob/main/assets/img/Web_HawksData.webp" alt="Web_HawksData" /> 
+
+
 ## Resultado de la mejora
 
 El cambio permite que la clasificación de la **Full Stack League** se genere de forma más dinámica y escalable.
